@@ -1,44 +1,44 @@
 # GEMINI.md
 
-## Project Overview
+## 프로젝트 개요
 
-This repository contains the code examples for the book "<혼자 공부하는 머신러닝+딥러닝(개정판)>" (Self-study machine learning + deep learning (revised edition)). It's a collection of Jupyter notebooks that cover various machine learning and deep learning topics. The notebooks provide hands-on examples using popular Python libraries.
+이 저장소는 "<혼자 공부하는 머신러닝+딥러닝(개정판)>" 책의 코드 예제를 담고 있습니다. 다양한 머신러닝과 딥러닝 주제를 다루는 주피터 노트북 모음입니다. 노트북은 인기 있는 파이썬 라이브러리를 사용한 실습 예제를 제공합니다.
 
-The main technologies used in this project are:
-*   **Python**: The primary programming language.
-*   **Jupyter Notebook**: For interactive coding and explanations.
-*   **Scikit-learn**: For classical machine learning algorithms.
-*   **Keras**: As a high-level API for building and training deep learning models.
-*   **PyTorch**: An open-source machine learning framework.
+이 프로젝트에서 사용된 주요 기술은 다음과 같습니다:
+*   **Python**: 기본 프로그래밍 언어.
+*   **Jupyter Notebook**: 대화형 코딩 및 설명을 위함.
+*   **Scikit-learn**: 고전적인 머신러닝 알고리즘을 위함.
+*   **Keras**: 딥러닝 모델을 구축하고 훈련하기 위한 고급 API.
+*   **PyTorch**: 오픈 소스 머신러닝 프레임워크.
 
-## Directory Overview
+## 디렉토리 개요
 
-The directory is structured around the chapters of the book. Each `.ipynb` file corresponds to a specific section of the book. Some chapters have separate notebooks for Keras and PyTorch implementations, for instance:
-*   `07-2.ipynb`: Keras implementation.
-*   `07-2.pytorch.ipynb`: PyTorch implementation.
+디렉토리는 책의 장을 중심으로 구성되어 있습니다. 각 `.ipynb` 파일은 책의 특정 섹션에 해당합니다. 일부 장에는 Keras 및 PyTorch 구현을 위한 별도의 노트북이 있습니다. 예를 들어:
+*   `07-2.ipynb`: Keras 구현.
+*   `07-2.pytorch.ipynb`: PyTorch 구현.
 
-The repository also contains saved models like `best-cnn-model.pt`, `best-2lstm-model.keras`, etc.
+저장소에는 `best-cnn-model.pt`, `best-2lstm-model.keras` 등과 같은 저장된 모델도 포함되어 있습니다.
 
-## Key Files
+## 주요 파일
 
-*   **`*.ipynb`**: Jupyter notebooks containing the code examples. These are the core of the repository.
-*   **`README.md`**: Provides a general introduction to the repository.
-*   **`requirements.txt`**: Lists the Python dependencies for this project.
-*   **`pyproject.toml`**: Basic project configuration.
-*   **`best-*.keras`, `best-*.pt`**: Saved model files.
+*   **`*.ipynb`**: 코드 예제가 포함된 주피터 노트북. 이 저장소의 핵심입니다.
+*   **`README.md`**: 저장소에 대한 일반적인 소개를 제공합니다.
+*   **`requirements.txt`**: 이 프로젝트의 파이썬 종속성을 나열합니다.
+*   **`pyproject.toml`**: 기본 프로젝트 구성.
+*   **`best-*.keras`, `best-*.pt`**: 저장된 모델 파일.
 
-## Usage
+## 사용법
 
-To run the code in this repository, you will need to have Python and the required libraries installed. You can install the libraries using pip:
+이 저장소의 코드를 실행하려면 파이썬과 필요한 라이브러리가 설치되어 있어야 합니다. pip를 사용하여 라이브러리를 설치할 수 있습니다:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then, you can run Jupyter lab to open and run the notebooks:
+그런 다음 주피터 랩을 실행하여 노트북을 열고 실행할 수 있습니다:
 
 ```bash
 jupyter lab
 ```
 
-This will open a new tab in your browser where you can navigate to the notebook files and execute the code cells.
+이렇게 하면 브라우저에서 새 탭이 열리고 노트북 파일로 이동하여 코드 셀을 실행할 수 있습니다.
